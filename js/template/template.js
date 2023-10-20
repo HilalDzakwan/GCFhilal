@@ -1,10 +1,10 @@
-export let URLGeoJson = "../../ch1/data.json";
+export let URLGeoJson = "https://asia-southeast2-formidable-feat-401903.cloudfunctions.net/petapedia";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
 export let tableTemplate=`
-<td>#TYPE#</td>
 <td>#NAME#</td>
-<td>#KORDINAT#</td>
+<td >#KORDINAT#</td>
+<td>#TYPE#</td>
 `
 export const clickpopup = `
 Long : #LONG#<br>
